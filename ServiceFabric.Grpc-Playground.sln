@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeter", "Greeter\Greeter.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceFabric.Grpc.Client", "ServiceFabric.Grpc.Client\ServiceFabric.Grpc.Client.csproj", "{B8791791-4D18-42CD-A112-01225325CCC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceFabric.Services.Grpc", "ServiceFabric.Services.Grpc\ServiceFabric.Services.Grpc.csproj", "{6C10E08C-6AE4-46C6-996F-B5E532D437EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,14 @@ Global
 		{B8791791-4D18-42CD-A112-01225325CCC2}.Release|Any CPU.ActiveCfg = Release|x64
 		{B8791791-4D18-42CD-A112-01225325CCC2}.Release|x64.ActiveCfg = Release|x64
 		{B8791791-4D18-42CD-A112-01225325CCC2}.Release|x64.Build.0 = Release|x64
+		{6C10E08C-6AE4-46C6-996F-B5E532D437EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C10E08C-6AE4-46C6-996F-B5E532D437EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C10E08C-6AE4-46C6-996F-B5E532D437EC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6C10E08C-6AE4-46C6-996F-B5E532D437EC}.Debug|x64.Build.0 = Debug|Any CPU
+		{6C10E08C-6AE4-46C6-996F-B5E532D437EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C10E08C-6AE4-46C6-996F-B5E532D437EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C10E08C-6AE4-46C6-996F-B5E532D437EC}.Release|x64.ActiveCfg = Release|Any CPU
+		{6C10E08C-6AE4-46C6-996F-B5E532D437EC}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
